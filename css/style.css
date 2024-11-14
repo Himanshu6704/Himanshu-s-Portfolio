@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@600;700;800;900&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 .contain{
     width: 33vw;
     height: 10vh;
-    /* background-color: #2b323c; */
     color: #fff;
     display: flex;
     align-items: center;
@@ -24,11 +23,14 @@
 }
 
 
+
 .container-fluid
 {
     background-color:#1f242d ;
     color: white;
     font-family: 'Poppins', sans-serif;
+    margin: 2px;
+    background-color: #03132b;
 }
 .logo {
     font-size: 2rem;
@@ -41,11 +43,11 @@
 
 span
 {
-color:rgb(206, 15, 15);
+color:rgb(200, 153, 13);
 }
 .nav-link:hover,
 .nav-link.active{
-    color: rgb(206, 15, 15) !important;
+    color: rgba(178, 190, 9, 0.61) !important;
 }
 img {
     width: 35vw;
@@ -87,7 +89,7 @@ img {
     border: .2rem solid rgb(211, 6, 13);
     border-radius: 50%;
     font-size: 1rem;
-    color: rgb(215, 11, 11);
+    color: rgb(7, 161, 27);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5sec ease;
     margin-top: 0;
@@ -95,15 +97,15 @@ img {
 }
 
 .social-media a:hover {
-    background: rgb(195, 4, 4);
+    background: rgb(224, 253, 204);
     color: #323946 !important;
 }
 .button {
     text-decoration: none;
     padding: 1rem 2.8rem;
-    background: linear-gradient(90deg,rgba(35, 2, 2, 0.923),rgba(215, 4, 4, 0.896));
+    background: linear-gradient(90deg,rgba(35, 2, 2, 0.923),rgba(113, 66, 231, 0.896));
     border-radius: 4rem;
-    box-shadow: 0 0 1rem red;
+    box-shadow: 0 0 1rem rgb(14, 6, 32);
     font-size: 1rem; 
     letter-spacing: .1rem;
     font-weight: 600;
@@ -124,11 +126,10 @@ img {
 }
 .about-img img {
     width: 35vw;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .heading {
-    /* text-align: center; */
     font-size: 3rem;
     margin-top: 23%;
 
@@ -350,19 +351,20 @@ img {
 
 .footer-text p{
     font-size: 1rem;
+    margin-top: 15px;
 }
 .footer-iconTop a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     padding: .8rem;
-    background: rgb(213, 6, 19);
+    background: rgb(17, 79, 165);
     border-radius: .8rem;
     transition: .5 ease;
     text-decoration: none;
 }
 .footer-iconTop a:hover{
-    box-shadow: 0 0 1rem rgb(203, 5, 5);
+    box-shadow: 0 0 1rem rgb(1, 13, 46);
 }
 .footer-iconTop a i{
     font-size: 1.5rem;
